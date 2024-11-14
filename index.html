@@ -19,7 +19,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">    
 </head>
 <body class="soft-blue">
-    <nav class="navbar navbar-expand-lg navbar-light warm-beige fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light warm-beige fixed-top" id="navbar-prevent">
         <a class="navbar-brand kodchasan-bold dark-charcoal-color ms-3" href="#">Prevent</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -27,284 +27,285 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link kodchasan-regular" href="#introduction">Introduction</a>
+                    <a class="nav-link kodchasan-regular" href="#introduction" data-bs-toggle="collapse" data-bs-target="#navbarNav">Introduction</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link kodchasan-regular" href="#information">Information</a>
+                    <a class="nav-link kodchasan-regular" href="#information" data-bs-toggle="collapse" data-bs-target="#navbarNav">Information</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link kodchasan-regular" href="#what-to-look-for">What to Look For</a>
+                    <a class="nav-link kodchasan-regular" href="#what-to-look-for" data-bs-toggle="collapse" data-bs-target="#navbarNav">What to Look For</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link kodchasan-regular" href="#concerns">Concerns</a>
+                    <a class="nav-link kodchasan-regular" href="#concerns" data-bs-toggle="collapse" data-bs-target="#navbarNav">Concerns</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link kodchasan-regular" href="#podcasts">Podcasts</a>
+                    <a class="nav-link kodchasan-regular" href="#podcasts" data-bs-toggle="collapse" data-bs-target="#navbarNav">Podcasts</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link kodchasan-regular" href="#footer">Training</a>
+                    <a class="nav-link kodchasan-regular" href="#footer" data-bs-toggle="collapse" data-bs-target="#navbarNav">Training</a>
                 </li>
             </ul>
         </div>
     </nav>
 
-    <section id="introduction" class="mt-3 pt-5">
-        <div class="container">
-            <div class="row justify-content-between align-items-start">
-                <!-- Left Column: "What Prevent is" -->
-                <div class="col-12 col-md-8 hero-panel">
-                    <div class="glass-panel">
-                        <p class="text-center mt-3 kodchasan-regular text-shadow">Prevent is designed 
-                            to help ensure that people who are susceptible to radicalisation are supported
-                        </p>
-                        <p style="cursor: pointer;" class="text-center text-shadow text-decoration-underline" data-bs-toggle="modal" data-bs-target="#Prevent_Info_Modal">
-                            more
-                        </p>
-                    </div>                    
-                </div>
-                <!-- Right Column: "Myths" and "Audio" sections stacked vertically -->
-                <div class="col-12 col-md-4">
-                    <div class="text-center">
-                        <h3 class="text-center kodchasan-regular mb-1">who may be at risk</h3>
-                        <audio controls style="width: 100%; height:20px;">
-                            <source src="assets/audio/Prevent-Susceptibility.mp3" type="audio/mpeg">
-                            Your browser does not support the audio element.
-                        </audio>
-                    </div>
-                    <div class="info-panel mb-4 warm-beige">
-                        <h3 class="text-center kodchasan-regular">Myths</h3>
-                        <p>
-                            <br>
-                            <a class="kodchasan-regular small" data-bs-toggle="collapse" href="#moreMyth1" role="button">
-                                Prevent targets specific faiths or ethnic groups
-                            </a>
-                            <span id="moreMyth1" class="collapse text-center kodchasan-regular small"><br>Prevent does not target a specific 
-                                faith or ethnic group. It addresses the ideological causes of terrorism 
-                                and deals with all kinds of terrorist threats to the UK.<br>There is 
-                                a focus on Islamist and extreme right-wing ideologies and the people 
-                                and behaviours associated with them, as they represent the greatest 
-                                threat to the UK. Other ideologies are less present, but still have 
-                                Prevent is mainly delivered at the community level through the local 
-                                authority and partners in education and healthcare. This ensures that 
-                                radicalisation risks are properly understood within the local context.
-                            </span>
-                            <br><br>
-                            <a class="text-center kodchasan-regular small" data-bs-toggle="collapse" href="#moreMyth2" role="button">
-                                Prevent targets specific communities
-                            </a>
-                            <span id="moreMyth2" class="collapse text-center kodchasan-regular small"><br>Prevent does not blame the actions 
-                                of a violent minority on any particular community. It is not about 
-                                targeting different faiths. It's about Prevent focused activity 
-                                proportionate to the threat levels and risk present in a local area.
-                            </span>
-                            <br><br>
-                            <a class="text-center kodchasan-regular small" data-bs-toggle="collapse" href="#moreMyth3" role="button">
-                                Prevent is about getting people into trouble
-                            </a>
-                            <span id="moreMyth3" class="collapse text-center kodchasan-regular small"><br> It's about supporting 
-                                people who are susceptible to radicalisation in the same way as they 
-                                would be supported by similar safeguarding processes protecting them 
-                                from drug usage or exploitation. Prevent provides early intervention 
-                                to support people before they go too far down a road towards violence 
-                                and criminal activity.<br>Prevent is not a criminal sanction. It is
-                                not about punishment, making people suspects, or placing them under 
-                                surveillance, and it is not designed to impede anyone's prospects. 
-                                It is designed to help them.
-                            </span>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="information" class="mt-4">
-        <div class="container">
-            <div class="row justify-content-between align-items-start">
-                <div class="col-12 col-lg-4">
-                    <div class="info-panel mb-4 warm-beige">
-                        <h3 class="text-center kodchasan-regular">Susceptibility</h3>
-                        <p class="text-center kodchasan-regular small">Susceptibility is complex and unique to a person's 
-                            circumstances<br> Not all people susceptible to radicalisation will be a vulnerable person.
-                            <br> A person can be vulnerable if they need special care, support, or protection because of 
-                            age, disability, risk of abuse, or neglect.<br> Susceptibility can be closely connected to 
-                            emotions.​​​​​<br> People may feel insignificant, marginalised or invisible.<br> A person's 
-                            susceptibility to radicalisation may be linked to their vulnerability<br> However, 
-                            vulnerabilities may not be present or may not be relevant.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-4">
-                    <div class="info-panel mb-4 warm-beige">
-                        <h3 class="text-center kodchasan-regular">Radicalisation</h3>
-                        <p class="text-center kodchasan-regular small">Terrorism begins with radicalisation.<br> It's 
-                            the name given to the process that moves a person to legitimise their support of violence.
-                            <br> Radicalisation feeds on emotions.<br> The emotions involved when someone is at risk of 
-                            becoming a terrorist or supporting terrorism are common to all of us.<br> <strong>Context 
-                            is key</strong><br> When spotting signs of radicalisation you need to understand the 
-                            full context of the situation.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-4">
-                    <div class="info-panel mb-4 warm-beige">
-                        <h3 class="text-center kodchasan-regular">Foundation</h3>
-                        <p class="text-center kodchasan-regular small">A terrorist attack is like the tip of an iceberg; 
-                            the part above the surface that we see. But just like that tip, it's supported by a greater 
-                            mass below the surface: Hidden activity that builds and builds, leading up to physical 
-                            violence.<br> This activity might include criminal acts like finding somewhere to target; 
-                            getting weapons; raising funds.<br>Anyone can be attracted to a terrorist cause.<br>Like 
-                            an iceberg, right down the bottom, in the dark waters, is where most terrorism begins.<br>
-                            <span id="moreText" class="collapse"> 
-                                Terrorism starts with a vulnerable person becoming attracted to individuals, groups, or 
-                                causes. New ways of thinking, driven by those who want to exploit that person's trust; who 
-                                focus in on that person's grievances or desires and say they have an apparent means to 
-                                address it.<br> They promote ideologies that go against our shared values; that encourage 
-                                intolerance and even glorify acts of violence.<br> These ideologies might claim political 
-                                views or distort religion to draw vulnerable people in. But however it’s presented, the 
-                                objective is the same: to incite someone to support terrorism, or perhaps become a 
-                                terrorist themselves.<br> That might start with the lure of belonging. A promise of an 
-                                increased status; the chance to impress their friends, or satisfy a need for excitement 
-                                and purpose.<br> Because, often, those vulnerable to radicalisation feel disillusioned. 
-                                Just like other young people, they are seeking answers, or that chance to re-invent or 
-                                prove themselves.<br> And it's that willingness for change which means they rarely see 
-                                the direction they are heading in.
-                            </span>
+    <div data-bs-spy="scroll" data-bs-target="#navbar-prevent" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+        <div id="introduction" class="mt-3 pt-5" style="padding-top: 40px;">
+            <div class="container">
+                <div class="row justify-content-between align-items-start">
+                    <!-- Left Column: "What Prevent is" -->
+                    <div class="col-12 col-md-8 hero-panel">
+                        <div class="glass-panel">
+                            <p class="text-center mt-3 kodchasan-regular text-shadow">Prevent is designed 
+                                to help ensure that people who are susceptible to radicalisation are supported
                             </p>
-                            <a class="text-center kodchasan-regular small" data-bs-toggle="collapse" href="#moreText" 
-                                role="button">
-                                More
-                            </a>
+                            <p style="cursor: pointer;" class="text-center text-shadow text-decoration-underline" data-bs-toggle="modal" data-bs-target="#Prevent_Info_Modal">
+                                more
+                            </p>
+                        </div>                    
                     </div>
-                </div>            
-            </div>
-        </div>
-    </section>
-                
-    <section id="what-to-look-for" class="mt-4">
-        <div class="container">
-            <div class="row justify-content-between align-items-start">
-                <div class="col-12 col-md-5">
-                    <div class="info-panel mb-4 warm-beige" id="Themes">
-                        <h3 class="text-center kodchasan-regular">Themes</h3>
-                        <p class="text-center kodchasan-regular small">
-                            Established terrorist narratives exhibit common themes such as:
-                        </p>
-                        <ul class="text-left kodchasan-regular small">
-                            <li>Antisemitism</li>
-                            <li>Misogyny</li>
-                            <li>anti-establishment</li>
-                            <li>anti-LGBTQ+ grievances</li>
-                            <li>religious or ethnic superiority</li>
-                        </ul>
-                        <p class="text-center kodchasan-regular small">
-                            Conspiracy theories can act as gateways to radicalised thinking and sometimes violence.
-                            In some cases, a blurring of ideologies with personal narratives makes it harder to 
-                            assess the risk that people may pose.<br><br> Less well recognised motivations could also 
-                            meet the threshold of terrorist intent or action, such as these :
-                        </p>
-                        <ul class="text-left kodchasan-regular small">
-                            <li>involuntary celibates (incels)</li>
-                            <li>left-wing extremism</li>
-                            <li>eco-terrorism</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-12 col-md-7">
-                    <div class="info-panel mb-4 warm-beige" id="Behaviours">
-                        <h3 class="text-center kodchasan-regular">Behaviours</h3>
-                        <p class="text-center kodchasan-regular small">
-                            Here are some examples of changes in behaviour that may indicate radicalisation in a person.
-                            <br>There could be many different drivers behind these types of changes in behaviour, not 
-                            just radicalisation. So, it's important to understand why these changes are happening, before 
-                            jumping to any conclusions.
-                        </p>
-                        <ul class="text-left kodchasan-regular small">
-                            <li>more than one online identity</li>
-                            <li>spending more time online and accessing extremist online content</li>
-                            <li>downloading propaganda material</li>
-                            <li>more argumentative in their viewpoints</li>
-                            <li>being abusive to others</li>
-                            <li>justifying the use of violence to solve societal issues</li>
-                            <li>changed friends</li>
-                            <li>altered their style of dress or appearance to accord with an extremist group</li>
-                            <li>using a new vocabulary</li>
-                            <li>isolated from friends and family</li>
-                            <li>vunwilling to engage with people who are different</li>
-                            <li>secretive and reluctant to discuss their whereabouts</li>
-                            <li>adopted the use of certain symbols associated with terrorist organisations</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="concerns" class="mt-4">
-        <div class="container">
-            <div class="row justify-content-between align-items-center">
-                <div class="col-12">
-                    <div class="info-panel mb-4 warm-coral">
-                        <h3 class="text-center kodchasan-regular">Concerns</h3>
-                        <p class="text-center kodchasan-regular small">
-                            <strong>Check your initial judgement</strong><br>
-                            <strong>Ask yourself:</strong><br>
-                            is there an alternative explanation?<br>
-                            are there more areas to explore?<br>
-                            do they need my help?<br>
-                            <strong>Check with a colleague or line manager</strong><br>
-                            Ask a colleague discreetly<br>
-                            if they agree that this is a cause for concern<br>
-                            <strong>Check with your Designated Safeguarding Lead (DSL), or an equivalent</strong>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="podcasts" class="mt-4">
-        <div class="container">
-            <div class="row justify-content-between align-items-center">
-                <div class="col-12">
-                    <div class="info-panel mb-4 justify-content-center warm-beige">
-                        <h3 class="text-center kodchasan-regular">Relevant Podcasts</h3>
+                    <!-- Right Column: "Myths" and "Audio" sections stacked vertically -->
+                    <div class="col-12 col-md-4">
                         <div class="text-center">
-                            <a href="https://on.soundcloud.com/hoD9qRswAyJwLMBz9/" target="_blank" rel="noopener noreferrer"
-                                class="text-center kodchasan-regular small">
-                                Quilliam International (a counter-extremism organisation)
-                            </a><br>
+                            <h3 class="text-center kodchasan-regular mb-1">who may be at risk</h3>
+                            <audio controls style="width: 100%; height:20px;">
+                                <source src="assets/audio/Prevent-Susceptibility.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
                         </div>
-                        <div class="text-center">
-                            <a href="https://counterterrorismgroup.libsyn.com/" target="_blank" rel="noopener noreferrer"
-                                class="text-center kodchasan-regular small">
-                                The Counterterrorism Group (CTG)
-                            </a>
+                        <div class="info-panel mb-4 warm-beige">
+                            <h3 class="text-center kodchasan-regular">Myths</h3>
+                            <p>
+                                <br>
+                                <a class="kodchasan-regular small" data-bs-toggle="collapse" href="#moreMyth1" role="button">
+                                    Prevent targets specific faiths or ethnic groups
+                                </a>
+                                <span id="moreMyth1" class="collapse text-center kodchasan-regular small"><br>Prevent does not target a specific 
+                                    faith or ethnic group. It addresses the ideological causes of terrorism 
+                                    and deals with all kinds of terrorist threats to the UK.<br>There is 
+                                    a focus on Islamist and extreme right-wing ideologies and the people 
+                                    and behaviours associated with them, as they represent the greatest 
+                                    threat to the UK. Other ideologies are less present, but still have 
+                                    Prevent is mainly delivered at the community level through the local 
+                                    authority and partners in education and healthcare. This ensures that 
+                                    radicalisation risks are properly understood within the local context.
+                                </span>
+                                <br><br>
+                                <a class="text-center kodchasan-regular small" data-bs-toggle="collapse" href="#moreMyth2" role="button">
+                                    Prevent targets specific communities
+                                </a>
+                                <span id="moreMyth2" class="collapse text-center kodchasan-regular small"><br>Prevent does not blame the actions 
+                                    of a violent minority on any particular community. It is not about 
+                                    targeting different faiths. It's about Prevent focused activity 
+                                    proportionate to the threat levels and risk present in a local area.
+                                </span>
+                                <br><br>
+                                <a class="text-center kodchasan-regular small" data-bs-toggle="collapse" href="#moreMyth3" role="button">
+                                    Prevent is about getting people into trouble
+                                </a>
+                                <span id="moreMyth3" class="collapse text-center kodchasan-regular small"><br> It's about supporting 
+                                    people who are susceptible to radicalisation in the same way as they 
+                                    would be supported by similar safeguarding processes protecting them 
+                                    from drug usage or exploitation. Prevent provides early intervention 
+                                    to support people before they go too far down a road towards violence 
+                                    and criminal activity.<br>Prevent is not a criminal sanction. It is
+                                    not about punishment, making people suspects, or placing them under 
+                                    surveillance, and it is not designed to impede anyone's prospects. 
+                                    It is designed to help them.
+                                </span>
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
 
-    <footer class="warm-beige mt-4" id="footer">
-        <div class="container">
-            <div class="d-flex justify-content-between">
-                <span class="kodchasan-regular small">
-                    <a href="https://www.support-people-susceptible-to-radicalisation.service.gov.uk/portal#awareness-course" 
-                    target="_blank" rel="noopener noreferrer">
-                        Home Office Training
-                    </a>
-                </span>
-                <span class="kodchasan-regular small">
-                    <a href="https://github.com/andy-m-griffiths/AndyG_Prevent" target="_blank" rel="noopener noreferrer">
-                        View this project on GitHub
-                    </a>
-                </span>
+        <div id="information" class="mt-4" style="padding-top: 60px;">
+            <div class="container">
+                <div class="row justify-content-between align-items-start">
+                    <div class="col-12 col-lg-4">
+                        <div class="info-panel mb-4 warm-beige">
+                            <h3 class="text-center kodchasan-regular">Susceptibility</h3>
+                            <p class="text-center kodchasan-regular small">Susceptibility is complex and unique to a person's 
+                                circumstances<br> Not all people susceptible to radicalisation will be a vulnerable person.
+                                <br> A person can be vulnerable if they need special care, support, or protection because of 
+                                age, disability, risk of abuse, or neglect.<br> Susceptibility can be closely connected to 
+                                emotions.​​​​​<br> People may feel insignificant, marginalised or invisible.<br> A person's 
+                                susceptibility to radicalisation may be linked to their vulnerability<br> However, 
+                                vulnerabilities may not be present or may not be relevant.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="info-panel mb-4 warm-beige">
+                            <h3 class="text-center kodchasan-regular">Radicalisation</h3>
+                            <p class="text-center kodchasan-regular small">Terrorism begins with radicalisation.<br> It's 
+                                the name given to the process that moves a person to legitimise their support of violence.
+                                <br> Radicalisation feeds on emotions.<br> The emotions involved when someone is at risk of 
+                                becoming a terrorist or supporting terrorism are common to all of us.<br> <strong>Context 
+                                is key</strong><br> When spotting signs of radicalisation you need to understand the 
+                                full context of the situation.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="info-panel mb-4 warm-beige">
+                            <h3 class="text-center kodchasan-regular">Foundation</h3>
+                            <p class="text-center kodchasan-regular small">A terrorist attack is like the tip of an iceberg; 
+                                the part above the surface that we see. But just like that tip, it's supported by a greater 
+                                mass below the surface: Hidden activity that builds and builds, leading up to physical 
+                                violence.<br> This activity might include criminal acts like finding somewhere to target; 
+                                getting weapons; raising funds.<br>Anyone can be attracted to a terrorist cause.<br>Like 
+                                an iceberg, right down the bottom, in the dark waters, is where most terrorism begins.<br>
+                                <span id="moreText" class="collapse"> 
+                                    Terrorism starts with a vulnerable person becoming attracted to individuals, groups, or 
+                                    causes. New ways of thinking, driven by those who want to exploit that person's trust; who 
+                                    focus in on that person's grievances or desires and say they have an apparent means to 
+                                    address it.<br> They promote ideologies that go against our shared values; that encourage 
+                                    intolerance and even glorify acts of violence.<br> These ideologies might claim political 
+                                    views or distort religion to draw vulnerable people in. But however it’s presented, the 
+                                    objective is the same: to incite someone to support terrorism, or perhaps become a 
+                                    terrorist themselves.<br> That might start with the lure of belonging. A promise of an 
+                                    increased status; the chance to impress their friends, or satisfy a need for excitement 
+                                    and purpose.<br> Because, often, those vulnerable to radicalisation feel disillusioned. 
+                                    Just like other young people, they are seeking answers, or that chance to re-invent or 
+                                    prove themselves.<br> And it's that willingness for change which means they rarely see 
+                                    the direction they are heading in.
+                                </span>
+                                </p>
+                                <a class="text-center kodchasan-regular small" data-bs-toggle="collapse" href="#moreText" 
+                                    role="button">
+                                    More
+                                </a>
+                        </div>
+                    </div>            
+                </div>
             </div>
         </div>
-    </footer>
+                    
+        <div id="what-to-look-for" class="mt-4" style="padding-top: 70px;">
+            <div class="container">
+                <div class="row justify-content-between align-items-start">
+                    <div class="col-12 col-md-5">
+                        <div class="info-panel mb-4 warm-beige" id="Themes">
+                            <h3 class="text-center kodchasan-regular">Themes</h3>
+                            <p class="text-center kodchasan-regular small">
+                                Established terrorist narratives exhibit common themes such as:
+                            </p>
+                            <ul class="text-left kodchasan-regular small">
+                                <li>Antisemitism</li>
+                                <li>Misogyny</li>
+                                <li>anti-establishment</li>
+                                <li>anti-LGBTQ+ grievances</li>
+                                <li>religious or ethnic superiority</li>
+                            </ul>
+                            <p class="text-center kodchasan-regular small">
+                                Conspiracy theories can act as gateways to radicalised thinking and sometimes violence.
+                                In some cases, a blurring of ideologies with personal narratives makes it harder to 
+                                assess the risk that people may pose.<br><br> Less well recognised motivations could also 
+                                meet the threshold of terrorist intent or action, such as these :
+                            </p>
+                            <ul class="text-left kodchasan-regular small">
+                                <li>involuntary celibates (incels)</li>
+                                <li>left-wing extremism</li>
+                                <li>eco-terrorism</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-7">
+                        <div class="info-panel mb-4 warm-beige" id="Behaviours">
+                            <h3 class="text-center kodchasan-regular">Behaviours</h3>
+                            <p class="text-center kodchasan-regular small">
+                                Here are some examples of changes in behaviour that may indicate radicalisation in a person.
+                                <br>There could be many different drivers behind these types of changes in behaviour, not 
+                                just radicalisation. So, it's important to understand why these changes are happening, before 
+                                jumping to any conclusions.
+                            </p>
+                            <ul class="text-left kodchasan-regular small">
+                                <li>more than one online identity</li>
+                                <li>spending more time online and accessing extremist online content</li>
+                                <li>downloading propaganda material</li>
+                                <li>more argumentative in their viewpoints</li>
+                                <li>being abusive to others</li>
+                                <li>justifying the use of violence to solve societal issues</li>
+                                <li>changed friends</li>
+                                <li>altered their style of dress or appearance to accord with an extremist group</li>
+                                <li>using a new vocabulary</li>
+                                <li>isolated from friends and family</li>
+                                <li>vunwilling to engage with people who are different</li>
+                                <li>secretive and reluctant to discuss their whereabouts</li>
+                                <li>adopted the use of certain symbols associated with terrorist organisations</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+        <div id="concerns" class="mt-4" style="padding-top: 70px;">
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-12">
+                        <div class="info-panel mb-4 warm-coral">
+                            <h3 class="text-center kodchasan-regular">Concerns</h3>
+                            <p class="text-center kodchasan-regular small">
+                                <strong>Check your initial judgement</strong><br>
+                                <strong>Ask yourself:</strong><br>
+                                is there an alternative explanation?<br>
+                                are there more areas to explore?<br>
+                                do they need my help?<br>
+                                <strong>Check with a colleague or line manager</strong><br>
+                                Ask a colleague discreetly<br>
+                                if they agree that this is a cause for concern<br>
+                                <strong>Check with your Designated Safeguarding Lead (DSL), or an equivalent</strong>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="podcasts" class="mt-4" style="padding-top: 70px;">
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-12">
+                        <div class="info-panel mb-4 justify-content-center warm-beige">
+                            <h3 class="text-center kodchasan-regular">Relevant Podcasts</h3>
+                            <div class="text-center">
+                                <a href="https://on.soundcloud.com/hoD9qRswAyJwLMBz9/" target="_blank" rel="noopener noreferrer"
+                                    class="text-center kodchasan-regular small">
+                                    Quilliam International (a counter-extremism organisation)
+                                </a><br>
+                            </div>
+                            <div class="text-center">
+                                <a href="https://counterterrorismgroup.libsyn.com/" target="_blank" rel="noopener noreferrer"
+                                    class="text-center kodchasan-regular small">
+                                    The Counterterrorism Group (CTG)
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="warm-beige mt-4" id="footer">
+            <div class="container">
+                <div class="d-flex justify-content-between">
+                    <span class="kodchasan-regular small">
+                        <a href="https://www.support-people-susceptible-to-radicalisation.service.gov.uk/portal#awareness-course" 
+                        target="_blank" rel="noopener noreferrer">
+                            Home Office Training
+                        </a>
+                    </span>
+                    <span class="kodchasan-regular small">
+                        <a href="https://github.com/andy-m-griffiths/AndyG_Prevent" target="_blank" rel="noopener noreferrer">
+                            View this project on GitHub
+                        </a>
+                    </span>
+                </div>
+            </div>
+        </footer>
+    </div>
     <!-- Bootstrap modals -------------------------------------------------------------------------- -->
     <!-- Modal 1 -->
     <div class="modal fade" id="Prevent_Info_Modal" tabindex="-1" aria-hidden="true">
@@ -331,7 +332,7 @@
 
     <!-- Bootstrap JS and dependencies -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-
+    
 </body>
 
 </html>
