@@ -1,0 +1,49 @@
+<section class="warm-beige">
+    <div class="container hero-page">
+        <div class="row justify-content-between align-items-start min-vh-100">
+            <!-- Left Column: "What Prevent is" -->
+            <div class="col-md-6">
+                <div class="glass-panel">
+                    <h2 class="text-center mt-3 kodchasan-regular">What Prevent is</h2>
+                    <p class="text-center kodchasan-regular small">The aim of Prevent is to stop people 
+                        from becoming terrorists or supporting terrorism. Prevent sits alongside
+                        long-established safeguarding duties and is part of the Counter-Terrorism 
+                        and Security Act (2015). The Prevent duty is designed to help ensure that 
+                        people who are susceptible to radicalisation are as supported as they 
+                        would be under safeguarding processes. It means that specified authorities 
+                        such as education, health, local authorities, police and criminal justice 
+                        agencies (prisons, probation and youth justice) have a duty to help stop 
+                        people being radicalised into terrorism.</p>
+                </div>
+            </div>
+
+            <!-- Right Column: "Myths" and "Audio" sections stacked vertically -->
+            <div class="col-md-6">
+                <div class="info-panel mb-4">
+                    <h3 class="text-center kodchasan-regular">Myths</h3>
+                    <p class="text-center kodchasan-semibold small">Myth: Prevent targets specific 
+                        faiths or ethnic groups</p>
+                    <p class="text-center kodchasan-regular small">Prevent does not target a specific 
+                        faith or ethnic group. It addresses the ideological causes of terrorism 
+                        and deals with all kinds of terrorist threats to the UK.</p>
+                    <p class="text-center kodchasan-regular small">There is a focus on Islamist and extreme 
+                        right-wing ideologies and the people and behaviours associated with them, as 
+                        they represent the greatest threat to the UK. Other ideologies are less 
+                        present, but still have the potential to be used to justify terrorism.</p>
+                    <p class="text-center kodchasan-regular small">Prevent is mainly delivered at the 
+                        community level through the local authority and partners in education and 
+                        healthcare. This ensures that radicalisation risks are properly understood 
+                        within the local context.</p>
+                </div>
+                
+                <div class="text-center">
+                    <h3 class="text-center kodchasan-regular mb-1">Susceptibility</h3>
+                    <audio controls style="width: 100%;">
+                        <source src="/assets/audio/Prevent - Susceptibility [D8XO-N0JtAI].mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

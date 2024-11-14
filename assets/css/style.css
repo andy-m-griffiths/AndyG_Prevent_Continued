@@ -1,0 +1,71 @@
+/* Custom small font size for entire website */
+/* overriding the bootstrap size to allow more text to be displayed */
+.small {
+    font-size: 1.2rem;
+    margin-bottom: 0.3rem;
+}
+
+.kodchasan-regular {
+    font-family: "Kodchasan", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 10);
+}
+
+.warm-beige {
+    background-color: #F5EFE6;
+}
+
+.dark-charcoal {
+    background-color: #333333;
+}
+
+.dark-charcoal-color {
+    color: #333333;
+}
+
+.soft-blue {
+    background-color: #B4D0E7;
+}
+
+a, nav, footer {
+    color:#333333;
+}
+
+.warm-coral {
+    background-color: #F2A488;
+}
+
+.hero-panel {
+    background-image: url('../images/robert-bye-4hcpIbqQM8c-unsplash-dimmed.webp');
+    background-size: cover;
+    background-position: center;
+    min-height:  500px;
+}  
+
+.container {
+    background-size: cover;
+    background-position: center;
+}
+
+.glass-panel {
+    color: white;
+    margin: 20px auto;
+    background-color: rgba(255,255,255,0.01);
+    border: 1px solid rgba(255,255,255,0.1);
+    width: 100%;
+    border-radius: 15px;
+    padding: 8px;
+    backdrop-filter: blur(3px);
+}
+
+.info-panel {
+    color: #333333;
+    /* margin: auto; */
+    border: 2px solid #333333;
+    width: 100%;
+    /* padding: 8px; */
+}
